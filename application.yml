@@ -12,5 +12,7 @@ spring:
     profies: test #测试环境
     application:
         name: config-zhengl-test
+     
+version: 3
 
 #必须以utf-8保存
