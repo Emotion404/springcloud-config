@@ -1,18 +1,16 @@
 spring:
-    profies:
+    profiles:
         active：
         - dev
 ---
 spring:
-    profies: dev  #测试环境
+    profiles: dev  #测试环境
     application:
-        name: config-zhengl-dev
+        name: config-server-zhengl-dev
 ---
 spring:
-    profies: test #测试环境
+    profiles: test #测试环境
     application:
-        name: config-zhengl-test
-     
-version: 3
+        name: config-server-zhengl-test
 
 #必须以utf-8保存
